@@ -1,6 +1,6 @@
 {
   "name": "lowercase-first-keys",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Lowercase the first letter of a key in an object",
   "license": "MIT",
   "repository": "gillstrom/lowercase-first-keys",
