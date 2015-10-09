@@ -1,6 +1,6 @@
 # lowercase-first-keys [![Build Status](https://travis-ci.org/gillstrom/lowercase-first-keys.svg?branch=master)](https://travis-ci.org/gillstrom/lowercase-first-keys)
 
-> Lowercase the first letter of a key in an object
+> Lowercase the first letter of the keys in an object
 
 
 ## Install
