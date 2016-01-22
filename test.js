@@ -1,8 +1,15 @@
 'use strict';
 import test from 'ava';
-import fn from './';
+import m from './';
 
 test('lowercase first letter', t => {
-	t.same(fn({TestKey: 'foo', AnotherKey: 'bar', thirdKey: 'baz'}), {testKey: 'foo', anotherKey: 'bar', thirdKey: 'baz'});
-	t.end();
+	t.same(m({
+		TestKey: 'foo',
+		AnotherKey: 'bar',
+		thirdKey: 'baz'
+	}), {
+		testKey: 'foo',
+		anotherKey: 'bar',
+		thirdKey: 'baz'
+	});
 });
